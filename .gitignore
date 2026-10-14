@@ -1,0 +1,45 @@
+# ── Skarvel ──────────────────────────────
+skarvel_output_*.txt
+/skarvel
+/skarvel.exe
+/bin/
+
+# ── Go ───────────────────────────────────
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+coverage.*
+*.coverprofile
+profile.cov
+go.work
+go.work.sum
+vendor/
+.env
+
+# ── macOS ────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# ── Editors ──────────────────────────────
+.idea/
+.vscode/
+*.swp
